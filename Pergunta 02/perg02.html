@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequência Fibonacci</title>
+    <link rel="stylesheet" href="perg.css">
+    <script src="perg02.js" defer></script>
+
+</head>
+<body >
+    <div id="container" class="box">
+        <h2>Digite Qualquer Número</h2>
+
+        <input type="text" id="num" name="num" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"  >
+        <button type="submit" id="calcular">Calcular</button>
+        <button type="submit" id="limpar">Limpar</button>
+        <div id="result">
+
+        </div>
+    </div>
+  
+</body>
+</html>
